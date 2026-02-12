@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5a710a4a767b46d38f20abf731f273f4" Name="Diagram1">
+        <EntityTypeShape EntityType="MG_APPModel.MARCHE" Width="1.5" PointX="16.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CADENCE" Width="1.5" PointX="7.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CADENCIER_FLEG" Width="1.5" PointX="17.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ClIENTDOUTSESSION" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DIM_FAMILLE" Width="1.5" PointX="18.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DIM_PROMO_ART" Width="1.5" PointX="19.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DIM_S_FAMILLE" Width="1.5" PointX="19.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DIM_U_BESOIN" Width="1.5" PointX="12.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FACT_PRIX_MAGASIN" Width="1.5" PointX="14.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TEMP_MGVUL" Width="1.5" PointX="16.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.Annexe" Width="1.5" PointX="0.75" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.AnnexeCahier" Width="1.5" PointX="13" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.AnnexeDocument" Width="1.5" PointX="19.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CONTRAT" Width="1.5" PointX="10.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DIM_ARTICLE" Width="1.5" PointX="18.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DIM_EMPLOYEE" Width="1.5" PointX="20.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DIM_MAGASIN" Width="1.5" PointX="21.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DIM_TEMPS" Width="1.5" PointX="21.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.Obligation" Width="1.5" PointX="22.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ObligationClients" Width="1.5" PointX="22.75" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ObligationFrs" Width="1.5" PointX="22.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.Specifications" Width="1.5" PointX="22.75" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.Specifications_tech" Width="1.5" PointX="23.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.sysdiagrams" Width="1.5" PointX="23.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.BONDACHAT" Width="1.5" PointX="23.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.BORNE" Width="1.5" PointX="12.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FIDELITE" Width="1.5" PointX="0.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FIDELITE_OLD" Width="1.5" PointX="2.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FIDELITE_WEB" Width="1.5" PointX="8.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.GOUVERNORAT" Width="1.5" PointX="23.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MUNICIPALITE" Width="1.5" PointX="24.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.COMMANDE_DEP" Width="1.5" PointX="14.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.COMMANDE_MAG" Width="1.5" PointX="24.75" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FAMILLE_ZONE" Width="1.5" PointX="24.75" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.LOG_METI_FILE" Width="1.5" PointX="24.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MOTIF_REGULE" Width="1.5" PointX="25.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MOTIF_RETOUR" Width="1.5" PointX="25.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PCB" Width="1.5" PointX="25.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PRIORTE_MAG" Width="1.5" PointX="25.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SOCIETE_PREP" Width="1.5" PointX="26.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_CAISSE" Width="1.5" PointX="26.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ENQUETES_F" Width="1.5" PointX="26.75" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MISSIONS" Width="1.5" PointX="26.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PDA" Width="1.5" PointX="27.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PLANNING" Width="1.5" PointX="27.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SITES" Width="1.5" PointX="27.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TACHE" Width="1.5" PointX="26.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TEMP" Width="1.5" PointX="28.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.USERS" Width="1.5" PointX="10.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FACT_POINTAGE" Width="1.5" PointX="28.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.QUESTION" Width="1.5" PointX="22.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ARTICLE1" Width="1.5" PointX="28.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CITE" Width="1.5" PointX="28.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CLIENT1" Width="1.5" PointX="29.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DETAILS_PANIER" Width="1.5" PointX="29.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ETAT_RESERVATION" Width="1.5" PointX="30.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FOURNISSEUR" Width="1.5" PointX="30.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.GOUVERNERAT" Width="1.5" PointX="12.75" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.LIVRAISON" Width="1.5" PointX="30.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MUNICIPALITE1" Width="1.5" PointX="14.75" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OM" Width="1.5" PointX="30.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OPERATEUR1" Width="1.5" PointX="30.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PANIER" Width="1.5" PointX="30.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TRANCHE" Width="1.5" PointX="30.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_CLIENT" Width="1.5" PointX="31.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_INSTALLATION" Width="1.5" PointX="31.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_MUR" Width="1.5" PointX="20.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ARTICLE2" Width="1.5" PointX="22.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CHAUFFEUR" Width="1.5" PointX="24.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CITE1" Width="1.5" PointX="12.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CLIENT2" Width="1.5" PointX="14.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CODE_P" Width="1.5" PointX="26.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DETAILS_PANIER1" Width="1.5" PointX="28.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.EQUIPEMENT" Width="1.5" PointX="30.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ETAT_RESERVATION1" Width="1.5" PointX="15.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FAMILLE" Width="1.5" PointX="32.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.GOUVERNERAT1" Width="1.5" PointX="7.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.LIVRAISON1" Width="1.5" PointX="32.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MUNICIPALITE2" Width="1.5" PointX="10" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OPERATEUR11" Width="1.5" PointX="32.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PANIER1" Width="1.5" PointX="18" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.RAYON" Width="1.5" PointX="32.75" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SOUS_FAMILLE" Width="1.5" PointX="32.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TRANCHE1" Width="1.5" PointX="32.75" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_CLIENT1" Width="1.5" PointX="12.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_LIVRAISON" Width="1.5" PointX="32.75" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.UB" Width="1.5" PointX="32.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.AUTRE_COUT" Width="1.5" PointX="6" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CLASSE" Width="1.5" PointX="3.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CLT_EXT_OFFRE_PRIX" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DISTANCE" Width="1.5" PointX="32.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DISTANCE_ARCHIVE" Width="1.5" PointX="33.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.EMPLOYE" Width="1.5" PointX="6" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.EQUIPEMENT1" Width="1.5" PointX="15" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ESCALE" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ETAT_OM" Width="1.5" PointX="3.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FACTURE" Width="1.5" PointX="10.75" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FACTURE_TRAJET" Width="1.5" PointX="10.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.JOUR" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ODSEQUIPEMENT" Width="1.5" PointX="12.75" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OM2" Width="1.5" PointX="6" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OPERATEUR" Width="1.5" PointX="3.75" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PLANIFICATION" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.RECAP_CHAUFFEUR" Width="1.5" PointX="14.75" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SALAIRE_BRUT_EMP_TEMP" Width="1.5" PointX="33.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SITE" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SOCIETE" Width="1.5" PointX="12.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TMP_Escal" Width="1.5" PointX="34.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TRAJET" Width="1.5" PointX="8.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TRAJET_CLT_EXT_OFFRE_PRIX" Width="1.5" PointX="5.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_EMPLOYE" Width="1.5" PointX="34.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_INDIMNITE" Width="1.5" PointX="6" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_LIVRAISON1" Width="1.5" PointX="1.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_OPERATEUR" Width="1.5" PointX="1.5" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_SITE" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_TONNAGE1" Width="1.5" PointX="34.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ACTION" Width="1.5" PointX="34.75" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CATEGORIE_ACTION" Width="1.5" PointX="34.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CATEGORIE_CONDITION" Width="1.5" PointX="34.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CLASSE_CONDITION" Width="1.5" PointX="24.75" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CONDITION" Width="1.5" PointX="34.75" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CONDITION_ACTION" Width="1.5" PointX="34.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CONSTAT" Width="1.5" PointX="30.75" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ENSEIGNE1" Width="1.5" PointX="34.75" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ETAT_MAG_CONCURRENT" Width="1.5" PointX="35.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FILES" Width="1.5" PointX="4.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FONCTION1" Width="1.5" PointX="16.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MAGASIN2" Width="1.5" PointX="18.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MAGASIN_MAG_CONCURRENT" Width="1.5" PointX="20.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PLANIFICATION1" Width="1.5" PointX="26.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.RAYON1" Width="1.5" PointX="32.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.REGION1" Width="1.5" PointX="34.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TRESORERIE" Width="1.5" PointX="36.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_DIFFICULTE" Width="1.5" PointX="36.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_MAGASIN_CONCURRENT" Width="1.5" PointX="36.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.UTILISATEUR" Width="1.5" PointX="36.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FBARTICLE" Width="1.5" PointX="36.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CLIENT" Width="1.5" PointX="36.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DETAIL_MARCHE" Width="1.5" PointX="36.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ENSEIGNE" Width="1.5" PointX="36.75" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_BONS" Width="1.5" PointX="36.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.COMMENTAIRE_CADENCIER" Width="1.5" PointX="36.75" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.JOURS" Width="1.5" PointX="36.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.JOURS_CADENCE" Width="1.5" PointX="37.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.U_BESOIN" Width="1.5" PointX="22.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SOLDE_FORCE" Width="1.5" PointX="38.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SOLDE_POINT" Width="1.5" PointX="4.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ARTICLE" Width="1.5" PointX="38.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.COMMANDE_DEP_TEMP" Width="1.5" PointX="38.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.COMMANDE_MAG_TEMP" Width="1.5" PointX="10.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.DETAIL_CMD" Width="1.5" PointX="38.75" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ENTETE_CMD" Width="1.5" PointX="38.75" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ETAT_CMD_MAG" Width="1.5" PointX="38.75" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PREPARATEUR" Width="1.5" PointX="28.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.VAGUE_STATE" Width="1.5" PointX="38.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ENQUETES_C" Width="1.5" PointX="30.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.ENQUETES_L" Width="1.5" PointX="38.75" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FORMS" Width="1.5" PointX="32.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FORMS_GROUPS" Width="1.5" PointX="34.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FORMS_LISTS" Width="1.5" PointX="39.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.JOUR_FERIER" Width="1.5" PointX="12.75" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.LOG" Width="1.5" PointX="14.75" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.USERS_RIGHT" Width="1.5" PointX="24.75" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FONCTION" Width="1.5" PointX="40.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.FONCTION_TITRE" Width="1.5" PointX="40.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TMP_ARTICLE" Width="1.5" PointX="40.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.EXPEDITION" Width="1.5" PointX="40.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PREPARATION" Width="1.5" PointX="16.75" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.RECEPTION1" Width="1.5" PointX="18.75" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.STOCKAGE" Width="1.5" PointX="40.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.EXPEDITION1" Width="1.5" PointX="40.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.LAD_OM_CHAUFFEUR" Width="1.5" PointX="40.75" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MAGASIN1" Width="1.5" PointX="40.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TMP_ARTICLE1" Width="1.5" PointX="4.75" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_TONNAGE" Width="1.5" PointX="41.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.VEHICULE" Width="1.5" PointX="20.75" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.AFFECTATION1" Width="1.5" PointX="8.25" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.AUTRE_COUT_OM" Width="1.5" PointX="8.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.BON_TRANSPORT" Width="1.5" PointX="40.75" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CARBURANT" Width="1.5" PointX="42.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CLIENT_EXTERNE" Width="1.5" PointX="42.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.COUT_INDIRECT" Width="1.5" PointX="42.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.Formule_Variante_CH" Width="1.5" PointX="12.75" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.Formule_Variante_ST" Width="1.5" PointX="42.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.GOUVERNERAT2" Width="1.5" PointX="42.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.INDIMNITE_OM" Width="1.5" PointX="8.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MISSION" Width="1.5" PointX="22.75" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.MUNICIPALITE3" Width="1.5" PointX="42.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OFFRE_PRIX" Width="1.5" PointX="24.75" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OFFRE_PRIX_CE" Width="1.5" PointX="42.75" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OFFRE_PRIX_DESTINATION" Width="1.5" PointX="26.75" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.OM_ARCHIVE" Width="1.5" PointX="42.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PRE_FACTURE_ST" Width="1.5" PointX="42.75" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.REMB_REPARATION" Width="1.5" PointX="42.75" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.SALAIRE_BRUT" Width="1.5" PointX="43.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TRAJET_ARCHIVE" Width="1.5" PointX="0.75" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.TYPE_MISSION" Width="1.5" PointX="6.75" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.PREDECESSEUR" Width="1.5" PointX="8.75" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.GSMIP" Width="1.5" PointX="32.75" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.CADENCIER" Width="1.5" PointX="34.75" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.Stock" Width="1.5" PointX="44.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_APPModel.View_stock" Width="1.5" PointX="44.75" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="MG_APPModel.FK__AnnexeCah__Num_C__5398450B" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK__AnnexeCah__Num_C__548C6944" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK__AnnexeCah__Num_C__55808D7D" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK__AnnexeCah__Num_C__5674B1B6" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_Cite_Municipalite1" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_Client_Cite" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_Client_Type_client" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_Panier_Etat_Reservation" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_Municipalite_Gouvernerat" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_AUTRE_COUT" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_CLASSE" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_CLASSE_CLASSE" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_CLASSE_TYPE_LIVRAISON" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_Offre_Prix" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_EMPLOYE" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_SOCIETE_EQ" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.PK_SITE_A" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.PK_SITE_D" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_ETAT" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK__Facture_t__fk_tr__2645B050" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_JOUR" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_OM" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_OM_AC" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_OM_IN" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_OM_OPERATEUR" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_OM_T" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_TYPE_LIVRAISON" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_OPERATEUR_type_operateur" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_SITE" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_SITE_AR" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_Site_Arrivee" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_SITE_DE" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_Site_Depart" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_TYPE_SITE" ManuallyRouted="false" />
+        <AssociationConnector Association="MG_APPModel.FK_TYPE_INDIMNITE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

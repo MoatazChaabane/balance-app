@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed04c91654a946499d16122e26a2c92e" Name="Diagram1">
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_AVANTAGE" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_CAMPAGNE" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_CONDITION" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_CONTRAT" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_DEPARTEMENT" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_FAMILLE" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_MARCHE" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_MOTIF_REGUL" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_MOTIF_REJET" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_PALIER" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_PERIMETRE_NEGO" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_PROMO" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_PROMO_ART" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_PROMO_SITUATION" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_RAYON" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_S_FAMILLE" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_SEGMENT" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_SITUATION_FACTURE" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_TYPE_DOC" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_U_BESOIN" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_ACHAT_DEALS" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_ACHATS" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_BUDGET" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_BUDGET_JR" Width="1.5" PointX="6.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_INV_STOCK" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_L_COMMANDE" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_L_FACTURE" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_MARGE_ARRIERE" Width="1.5" PointX="14.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_MVT_STOCK" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_NEGOCIATION" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_PRESENCE_ASSORTIMENT" Width="1.5" PointX="4.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_PROV_ART" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_REGUL" Width="1.5" PointX="16.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_SITUATION_FRS" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_STOCK_DS" Width="1.5" PointX="6.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_TX_SERVICE" Width="1.5" PointX="18.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTE_NOM" Width="1.5" PointX="18.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTES_ART" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTES_ART_CUS" Width="1.5" PointX="14.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTES_CUS" Width="1.5" PointX="16.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTES_ENC" Width="1.5" PointX="18.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTES_TH" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTES_TH_RAY" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTES_TIK" Width="1.5" PointX="20.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_BAGC_BON_ACHAT" Width="1.5" PointX="8.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_BAGC_MARCHE" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_BUDGET" Width="1.5" PointX="0.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_COMPTE" Width="1.5" PointX="2.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_ITEM" Width="1.5" PointX="22.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_PROJET" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_TYPE_DOCUMENT" Width="1.5" PointX="22.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_TYPE_MVT" Width="1.5" PointX="22.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_REGLEMENT_CUS" Width="1.5" PointX="22.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_TRESORERIE" Width="1.5" PointX="18.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_VENTES_CUS1" Width="1.5" PointX="20.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_ARTICLE" Width="1.5" PointX="22.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_BANQUE" Width="1.5" PointX="14.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_CUSTOMER" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_EMPLOYEE" Width="1.5" PointX="24.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_FOURNISSEUR" Width="1.5" PointX="0.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_MAGASIN" Width="1.5" PointX="2.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_REGION" Width="1.5" PointX="4.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_SITUATION_DOC" Width="1.5" PointX="10.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_SOCIETE" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_TEMPS" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_TRANCHE_HORRAIRE" Width="1.5" PointX="6.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_TYPE_ENCAISSEMENT" Width="1.5" PointX="26.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_UO" Width="1.5" PointX="26.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_PRIX_ASSORTIMENT" Width="1.5" PointX="12.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.sysdiagrams" Width="1.5" PointX="14.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.USER_ACCESS" Width="1.5" PointX="26.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_CONTRAT_HIS" Width="1.5" PointX="26.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_ETAT_PRET" Width="1.5" PointX="26.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_NATURE_PRET" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_ORGANISME_PRETEUR" Width="1.5" PointX="16.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_RUBRIQUE" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.DIM_TARIF" Width="1.5" PointX="28.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_PAIE" Width="1.5" PointX="28.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_PRET" Width="1.5" PointX="8.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_DIM_CLASSE_INTERVENTION" Width="1.5" PointX="28.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_DIM_EQUIPMENT" Width="1.5" PointX="28.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_DIM_PIECE_RECHANGE" Width="1.5" PointX="18.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_DIM_STATUT" Width="1.5" PointX="28.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_DIM_STATUT_ACHAT" Width="1.5" PointX="28.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_DIM_TYPE_GASOIL" Width="1.5" PointX="4.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_DIM_TYPE_INTERVENTION" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_FACT_ACHAT" Width="1.5" PointX="30.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_FACT_GASOIL" Width="1.5" PointX="30.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_FACT_OT" Width="1.5" PointX="14.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.WMS_DIM_EMPLACEMENT" Width="1.5" PointX="30.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.WMS_DIM_SITUATION_MISSION" Width="1.5" PointX="30.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.WMS_DIM_TYPE_MISSION" Width="1.5" PointX="30.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.WMS_DIM_TYPE_MVT" Width="1.5" PointX="30.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.WMS_FACT_PREPARATION" Width="1.5" PointX="26.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.FACT_CE" Width="1.5" PointX="30.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.GMO_FACT_INTERVENANT" Width="1.5" PointX="10.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MG_DWHModel.WMS_FACT_TX_SERVICE" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

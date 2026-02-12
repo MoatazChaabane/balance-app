@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau des Informations</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center; /* Center align items */
+            margin: 0; /* Remove default margins */
+            padding: 3px; /* Optional: Add padding to the body */
+        }
+
+        table {
+            width: 100%; /* Use full width */
+            max-width: 600px; /* Set a maximum width */
+            border-collapse: collapse;
+            border: 2px solid black;
+            margin: 10px 0; /* Add margin around the table */
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 8px; /* Increase padding for better spacing */
+            text-align: center;
+            font-size: 24px;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        td {
+            font-weight: bold;
+            font-size: 28px;
+        }
+
+        .header-row th {
+            text-transform: uppercase;
+        }
+
+        .full-width {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        /* Print styles */
+        @media print {
+            @page {
+                size: A4; /* Set the page size to A4 */
+                margin: 10mm; /* Set margins */
+            }
+
+            body {
+                height: auto; /* Allow content to be fully visible */
+            }
+
+            table {
+                width: 100%; /* Make the table full width for printing */
+            }
+        }
+
+        /* Responsive styles */
+        @media (max-width: 600px) {
+            th, td {
+                font-size: 20px; /* Adjust font size for smaller screens */
+                padding: 5px; /* Reduce padding for smaller screens */
+            }
+
+            table {
+                font-size: 20px; /* Reduce font size of the table */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>{{codeSupport}} Anomalie</h1>
+</body>
+</html>
